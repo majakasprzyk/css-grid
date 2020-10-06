@@ -1,0 +1,23 @@
+body{
+    color:#fff;
+    font family: arial;
+    text-align:center;
+
+}
+
+#content{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap:10px;
+    max-width: 960px;
+    margin: 0 auto;
+    }
+
+#content div{
+    background: #blue;
+    padding: 30px;
+}
+
+#content div{
+    bacground: grey;
+}
